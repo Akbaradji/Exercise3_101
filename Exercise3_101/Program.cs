@@ -31,6 +31,13 @@ namespace Exercise3_101
             else
                 return false;
         }
+        public bool listEmpty()
+        {
+            if (LAST == null)
+                return true;
+            else
+                return false;
+        }
         
     }
 
