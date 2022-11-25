@@ -1,5 +1,6 @@
 ﻿using Exercise3_101;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -65,7 +66,28 @@ namespace Exercise3_101
             Console.WriteLine("3. Display the first record in the list");
             Console.WriteLine("4. Exit");
             Console.WriteLine("Enter your Choice (1,2,3,4) :");
+            pilihanmenu = Convert.ToInt32(Console.ReadLine());
+            switch (pilihanmenu)
+            {
+                case 1:
+                    Console.WriteLine("");
+                    Console.WriteLine("----------------");
+                    Console.WriteLine("View all the records in the list");
+                    Console.WriteLine("----------------");
+                    CircularList.Equals();
+                    CircularList.ViewSearch();
+                    break;
+                case 2:
+                    Console.WriteLine("");
+                    Console.WriteLine("----------------");
+                    Console.WriteLine("Search for a record in the list");
+                    Console.WriteLine("----------------");
+                    CircularList.Equals();
+                    CircularList.ViewSearch();
+                    break;
+                
 
+            }
         }
     }
 
