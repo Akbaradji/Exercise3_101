@@ -39,6 +39,13 @@ namespace Exercise3_101
                 return false;
         }
         
+        public void traverse()
+        {
+            if (listEmpty())
+                return;
+            else
+                LAST = LAST.next;
+        }
     }
 
 }
