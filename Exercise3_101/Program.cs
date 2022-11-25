@@ -93,6 +93,9 @@ namespace Exercise3_101
                     CircularList.Equals();
                     CircularList.ViewSearch();
                     break;
+                case 4:
+                    Console.WriteLine("exit.");
+                    break;
 
             }
         }
