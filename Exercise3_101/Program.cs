@@ -11,6 +11,7 @@ namespace Exercise3_101
     {
          /*creates Nodes for the circular nexted list*/
            public int rollNumber;
+           public bool Search;
            public string name;
            public Node next;
     }
@@ -22,6 +23,15 @@ namespace Exercise3_101
         {
             LAST = null;
         }
+
+        public bool Search()
+        {
+            if (LAST == null)
+                return true;
+            else
+                return false;
+        }
+        
     }
 
 }
