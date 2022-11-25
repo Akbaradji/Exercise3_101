@@ -53,6 +53,20 @@ namespace Exercise3_101
             else
                 LAST.next.rollNumber = 0;
         }
+        static void Main(string[] args)
+        {
+            CircularList list = new CircularList();
+            int pilihanmenu;
+            char ch;
+
+            Console.WriteLine("\nMenu");
+            Console.WriteLine("1. View all the records in the list");
+            Console.WriteLine("2. Search for a record in the list");
+            Console.WriteLine("3. Display the first record in the list");
+            Console.WriteLine("4. Exit");
+            Console.WriteLine("Enter your Choice (1,2,3,4) :");
+
+        }
     }
 
 }
