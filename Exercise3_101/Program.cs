@@ -85,7 +85,14 @@ namespace Exercise3_101
                     CircularList.Equals();
                     CircularList.ViewSearch();
                     break;
-                
+                case 3:
+                    Console.WriteLine("");
+                    Console.WriteLine("----------------");
+                    Console.WriteLine("Display the first record in the list");
+                    Console.WriteLine("----------------");
+                    CircularList.Equals();
+                    CircularList.ViewSearch();
+                    break;
 
             }
         }
