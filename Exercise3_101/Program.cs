@@ -46,6 +46,13 @@ namespace Exercise3_101
             else
                 LAST = LAST.next;
         }
+        public void firstNode()
+        {
+            if (listEmpty())
+                return;
+            else
+                LAST.next.rollNumber = 0;
+        }
     }
 
 }
